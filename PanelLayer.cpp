@@ -25,7 +25,7 @@ bool PanelLayer::init()
 	int maxTime =10;
 	ScheduleCountDown *countDown =ScheduleCountDown::create(this,maxTime,true);
 	addChild(countDown,0, 99);
-	_scheduleLabel=CCLabelAtlas::create(CCString::createWithFormat("%d",maxTime)->getCString(),"ui_text_01-ipadhd.png",50,54,'0');
+	_scheduleLabel=CCLabelAtlas::create(CCString::createWithFormat("%d",maxTime)->getCString(),"baoshiyu_shuzi_02-ipadhd.png",50,54,'0');
 	addChild(_scheduleLabel);
 	_scheduleLabel->setPosition(ccp(100,1200));
     return true;

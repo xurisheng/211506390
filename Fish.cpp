@@ -60,7 +60,7 @@ int Fish::getScore(void)
 
 int Fish::getSpeed(void)
 {
-	return 250;
+	return 200;
 }
 
 CCRect Fish::getCollisionArea()

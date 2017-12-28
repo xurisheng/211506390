@@ -23,7 +23,7 @@ bool GoldCounterLayer::init(int number)
 	{
 		return false;
 	}
-    CCTexture2D * texture = CCTextureCache::sharedTextureCache()->addImage("ui_text_01-ipadhd.png");
+    CCTexture2D * texture = CCTextureCache::sharedTextureCache()->addImage("baoshiyu_shuzi_02-ipadhd.png");
 	CCSize textureSize = texture->getContentSize();
     
     for(int i = 0 ;i < NUM_COUNTER;i++){

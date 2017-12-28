@@ -35,7 +35,7 @@ bool FishLayer::init()
 
 void FishLayer::addFish(float delta)
 	{
-		int addToCount = CCRANDOM_0_1() * 2 + 1;
+		int addToCount = CCRANDOM_0_1() * 3+ 1;
 		int count = 0;
 		CCObject* obj;
 		CCSize winSize = CCDirector::sharedDirector()->getWinSize();
