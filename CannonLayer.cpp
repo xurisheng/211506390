@@ -17,7 +17,7 @@ bool CannonLayer::init()
 	_weapon = Weapon::create((CannonType)0);
 	addChild(_weapon,1);
 	CCSize winSize=CCDirector::sharedDirector()->getWinSize();
-	_weapon->setPosition(ccp(winSize.width/2 - 18, 0));
+	_weapon->setPosition(ccp(winSize.width/2 - 20, 0));
 
 	_addMenuItem = CCMenuItemImage::create(
 		"ui_button_65-ipadhd.png",
